@@ -28,4 +28,6 @@ function countVowels(word) {
 			count++;
 		}
 	}
+	console.log(word + ": " + count + " vowels");
 }
+
