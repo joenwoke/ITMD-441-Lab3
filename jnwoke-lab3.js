@@ -12,3 +12,8 @@ function minMaxAverage(numbers) {
 	console.log(result);
 }
 
+//Test cases for Exercise #1
+minMaxAverage([2, 5, 23, 6, 9, 4, 30, 1]);
+minMaxAverage([3, 40, 2, 4]);
+minMaxAverage([100, 17, 77, 68, 50]);
+
