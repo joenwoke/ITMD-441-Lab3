@@ -31,3 +31,7 @@ function countVowels(word) {
 	console.log(word + ": " + count + " vowels");
 }
 
+//Test cases
+countVowels("Hapkidoe");
+countVowels("Lawnmower");
+countVowels("Arina");
