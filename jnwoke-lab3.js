@@ -54,5 +54,11 @@ console.log('Original Array:[' + thirdArray + '] Sorted Array: [' + sortNumbers(
 
 //Exercise #4
 function celsiusToFahrenheit(celsius) {
-	
+	let fahrenheit = (celsius * 9/5) + 32;
+	return celsius.toFixed(1) + " Celsius = " + fahrenheit.toFixed(1) + " Fahrenheit";
 }
+
+//Test cases
+console.log(celsiusToFahrenheit(13));
+console.log(celsiusToFahrenheit(104));
+console.log(celsiusToFahrenheit(2));
