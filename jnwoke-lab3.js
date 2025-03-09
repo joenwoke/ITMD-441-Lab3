@@ -19,5 +19,6 @@ minMaxAverage([100, 17, 77, 68, 50]);
 
 //Exercise #2
 function countVowels(word) {
-	
+	const vowels  = "aeiou";
+	let count = 0;
 }
