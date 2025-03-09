@@ -41,3 +41,13 @@ countVowels("Arina");
 function sortNumbers(arrayNumbers) {
 	return arrayNumbers.sort((a, b) => a - b);
 }
+//Test cases
+const firstArray = [21, 82, 600, 1];
+const secondArray = [14, 21, 4, 59, 99, 5, 0];
+const thirdArray = [9, 87, 556, 34, 23, 21];
+
+//Print to console
+console.log('Original Array:[' + firstArray + '] Sorted Array: [' + sortNumbers(firstArray) + "]");
+console.log('Original Array:[' + secondArray + '] Sorted Array: [' + sortNumbers(secondArray) + "]");
+console.log('Original Array:[' + thirdArray + '] Sorted Array: [' + sortNumbers(thirdArray) + "]");
+
