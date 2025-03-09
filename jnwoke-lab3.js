@@ -21,4 +21,11 @@ minMaxAverage([100, 17, 77, 68, 50]);
 function countVowels(word) {
 	const vowels  = "aeiou";
 	let count = 0;
+	
+	//for loop to check each character
+	for (let char of word) {
+		if (vowels.includes(char)) {
+			count++;
+		}
+	}
 }
