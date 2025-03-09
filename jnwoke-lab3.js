@@ -51,3 +51,8 @@ console.log('Original Array:[' + firstArray + '] Sorted Array: [' + sortNumbers(
 console.log('Original Array:[' + secondArray + '] Sorted Array: [' + sortNumbers(secondArray) + "]");
 console.log('Original Array:[' + thirdArray + '] Sorted Array: [' + sortNumbers(thirdArray) + "]");
 
+
+//Exercise #4
+function celsiusToFahrenheit(celsius) {
+	
+}
