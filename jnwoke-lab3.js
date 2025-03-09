@@ -21,9 +21,10 @@ minMaxAverage([100, 17, 77, 68, 50]);
 function countVowels(word) {
 	const vowels  = "aeiou";
 	let count = 0;
+	const lowerCase = word.toLowerCase();
 	
 	//for loop to check each character
-	for (let char of word) {
+	for (let char of lowerCase) {
 		if (vowels.includes(char)) {
 			count++;
 		}
@@ -32,6 +33,6 @@ function countVowels(word) {
 }
 
 //Test cases
-countVowels("Hapkidoe");
+countVowels("HapkidOe");
 countVowels("Lawnmower");
 countVowels("Arina");
