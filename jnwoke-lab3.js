@@ -36,3 +36,8 @@ function countVowels(word) {
 countVowels("HapkidOe");
 countVowels("Lawnmower");
 countVowels("Arina");
+
+//Exercise #3
+function sortNumbers(arrayNumbers) {
+	return arrayNumbers.sort((a, b) => a - b);
+}
